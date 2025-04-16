@@ -1,0 +1,35 @@
+# ────────────────
+# GLOBAL
+# ────────────────
+
+.DS_Store
+Thumbs.db
+
+# ────────────────
+# NODE / PARCEL
+# ────────────────
+
+frontend/node_modules/
+frontend/.parcel-cache/
+frontend/dist/
+frontend/package-lock.json
+
+# ────────────────
+# GOOGLE CLASP
+# ────────────────
+
+backend/.clasp.json
+backend/.clasp-managed.json
+
+# ────────────────
+# BACKEND GENERATED
+# ────────────────
+
+backend/dist/
+
+# ────────────────
+# LOGS / SISTEMA
+# ────────────────
+
+*.log
+npm-debug.log*

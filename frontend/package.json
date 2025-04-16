@@ -1,0 +1,14 @@
+{
+  "name": "frontend",
+  "scripts": {
+    "dev": "parcel index.html --open",
+    "build": "parcel build index.html --dist-dir ../backend/dist --no-source-maps"
+  },
+  "devDependencies": {
+    "parcel": "^2.14.4"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
